@@ -1,0 +1,39 @@
+.sn{
+    font-family: "Inter", sans-serif;
+    color: black;
+    height: 100vh;
+    border-collapse: collapse;
+
+    &-header{
+        font-size: 1.125rem;
+        color: #dbdbdf;
+        background-color: #424246;
+    }
+
+
+    &-body{
+        &-user, &-content, &-suggest{
+            overflow: overlay;
+            width: 270px;
+        }
+
+        &-suggest{
+            width: 360px;
+
+            &-img{
+                height: 105px;
+                width: 85px;
+            }
+        }
+    }
+}
+
+
+.user-info{
+    border-bottom: 1px solid #e5e5e5;
+
+    &-img {
+        height: 70px;
+        width: 70px;
+    }
+}

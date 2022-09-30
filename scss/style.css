@@ -1,0 +1,30 @@
+.sn {
+  font-family: "Inter", sans-serif;
+  color: black;
+  height: 100vh;
+  border-collapse: collapse;
+}
+.sn-header {
+  font-size: 1.125rem;
+  color: #dbdbdf;
+  background-color: #424246;
+}
+.sn-body-user, .sn-body-content, .sn-body-suggest {
+  overflow: overlay;
+  width: 270px;
+}
+.sn-body-suggest {
+  width: 360px;
+}
+.sn-body-suggest-img {
+  height: 105px;
+  width: 85px;
+}
+
+.user-info {
+  border-bottom: 1px solid #e5e5e5;
+}
+.user-info-img {
+  height: 70px;
+  width: 70px;
+}/*# sourceMappingURL=style.css.map */
